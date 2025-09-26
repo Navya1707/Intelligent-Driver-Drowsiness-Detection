@@ -26,9 +26,9 @@
 ## 🚀 Installation
 
 1. Clone the repository:
-
--**git clone https://github.com/Navya1707/Intelligent-Driver-Drowsiness-Detection.git.
--**cd Intelligent-Driver-Drowsiness-Detection
+```bash
+git clone https://github.com/Navya1707/Intelligent-Driver-Drowsiness-Detection.git
+cd Intelligent-Driver-Drowsiness-Detection
 
 (Optional) Create a virtual environment:
 python -m venv venv
@@ -39,13 +39,14 @@ pip install -r requirements.txt
 Download required models:
 Shape Predictor (68 landmarks) → place in project folder
 YOLOv3 Config & Weights → place in project folder
+```
 
-▶️ Usage
-Start the system with your webcam:
-python main.py -w 0
-Press 'q' to exit
+## ▶️ Usage
+- **Start the system with your webcam:
+- **python main.py -w 0
+- **Press 'q' to exit
 
-🔍 How It Works
+## 🔍 How It Works
 Frame Capture (OpenCV): Continuously reads video from the webcam.
 Facial Landmark Detection (dlib): Tracks eyes and lips for blink/yawn analysis.
 Object Detection (YOLOv3): Identifies distractions such as phone use.
