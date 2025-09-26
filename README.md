@@ -27,7 +27,7 @@
 
 1. Clone the repository:
 
--**git clone https://github.com/Navya1707/Intelligent-Driver-Drowsiness-Detection.git
+-**git clone https://github.com/Navya1707/Intelligent-Driver-Drowsiness-Detection.git.
 -**cd Intelligent-Driver-Drowsiness-Detection
 
 (Optional) Create a virtual environment:
